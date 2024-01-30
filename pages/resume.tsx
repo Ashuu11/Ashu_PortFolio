@@ -21,10 +21,8 @@ const resume = () => {
         <motion.div variants={fade_in_Up} initial="initial" animate="animate">
           <h5 className='my-3 text-2xl font-bold'>Education</h5>
           <div>
-            <h5 className='my-2 text-xl font-bold'>Computer Science and Engineering with Specialization in Gaming Technology</h5>
-            <p className='font-semibold'>Vellore Institute of Technology (2019- 2023)</p>
-            <p className='my-3'>I am currently pursuing B.tech in CSE
-              from Vellore Institute of Technology</p>
+            <h5 className='my-2 text-xl font-semibold'>B.TECH - Computer Science and Engineering with Specialization in Gaming Technology</h5>
+            <p className='font-bold'>Vellore Institute of Technology (2019- 2023)</p>
           </div>
         </motion.div>
 
@@ -32,8 +30,14 @@ const resume = () => {
           <h5 className='my-3 text-2xl font-bold'>Experience</h5>
           <div>
             <h5 className='my-2 text-xl font-bold'>FullStack Web Developer</h5>
-            <p className='font-semibold'>NullClass Company (Mar-2022 - May-2022)</p>
+            <p className='font-semibold'>NullClass Company (Mar 2022 - May 2022)</p>
             <p className='my-3'>Learned and made FullStack Projects Using MongoDb, ExpressJS, ReactJs, NodeJs as well as Firebase</p>
+          </div>
+          <div>
+            <h5 className='my-2 text-xl font-bold'>SDET</h5>
+            <p className='font-semibold'>Mad Street Den (Dec 2022 - March 2024)</p>
+            <p className='my-3'>Learned to write test cases and execute them for various features, performed API Testing and 
+            Automation using Postman and Python, and gained proficiency in BDD Framework and Cucumber for web application automation</p>
           </div>
         </motion.div>
       </div>

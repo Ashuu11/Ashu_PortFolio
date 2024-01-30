@@ -15,10 +15,11 @@ const index = () => {
         <title>Ashish Mohanty | PortFolio</title>
       </Head>
       <h5 className='my-3 font-medium'>
-        I am currently a final-year B.Tech student at Vellore Institute of Technology in Bhopal, 
-        Madhya Pradesh, studying Computer Science and Engineering with a specialisation in Gaming Technology. 
-        I am really enthusiastic about learning new technologies and have over two years of 
-        experience producing games and dynamic websites. I aspire to become a Full Stack Web Developer.
+      Hello, I&apos;m Ashish Mohanty, a B.Tech graduate from Vellore Institute of Technology in Bhopal, Madhya Pradesh. 
+      I majored in Computer Science and Engineering with a specialization in Gaming Technology. Currently, I am employed 
+      at Mad Street Den as a Software Development Engineer in Test (SDET), with over one and a half years dedicated to Quality 
+      Assurance and Testing. Also I&apos;ve gained two years of experience in developing games and dynamic websites during my College
+      Academics. I am genuinely passionate about embracing new technologies. My aspiration is to evolve into a Full Stack Web Developer.
       </h5>
       <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}>
         <h6 className='my-3 text-xl font-bold tracking-wide'>What I Offer</h6>

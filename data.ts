@@ -1,7 +1,7 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
+import { RiBug2Line } from "react-icons/ri";
 import { SiBlender } from "react-icons/si"
 import { SiUnity } from "react-icons/si"
 import { Project, Service, Skill } from './types'
@@ -23,14 +23,14 @@ export const services:Service[] = [
       },
       {
         Icon: AiOutlineApi,
-        title: "API Development",
+        title: "API Testing and Automation",
         about:
-          "I can develop robust  REST API using <b>Node API</b> ",
+          "I can test REST APIs using <b>Postman</b> ",
       },
       {
-        Icon: MdDeveloperMode,
-        title: "Competitive Coder",
-        about: "a daily problem solver in <b>GeeksForGeeks</b>  and <b>Leet Code</b> ",
+        Icon: RiBug2Line,
+        title: "Manual Tester",
+        about: "Actively involved in designing <b>Test cases</b> and <b>executing tests</b> for various features",
       },
       {
         Icon: SiBlender,
@@ -74,12 +74,12 @@ export const languages:Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "CSS",
+    name: "CSS / Tailwind CSS",
     level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Java",
+    name: "Python",
     level: "50%",
   },
 ];
@@ -97,18 +97,23 @@ export const tools:Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
+    name: "Figma / Adobe XD",
     level: "50%",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
+    name: "Cucumber",
     level: "45%",
   },
   {
     Icon: BsCircleFill,
-    name: "Figma/ Adobe XD",
+    name: "Git",
     level: "60%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Postman",
+    level: "80%",
   },
 ];
 
