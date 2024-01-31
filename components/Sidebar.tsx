@@ -24,7 +24,7 @@ const Sidebar = () => {
         <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>Web Developer</p>
         <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>Game Developer</p>
         <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>QA Engineer / SDET</p>
-        <a href='/images/Resume-Ashish Mohanty.pdf' download='Resume-Ashish Mohanty.pdf' className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'><GiTie className='w-6 h-6'/> Download Resume</a>
+        <a href='/images/Ashish-Mohanty-Resume.pdf' download='Resume-Ashish Mohanty.pdf' className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'><GiTie className='w-6 h-6'/> Download Resume</a>
 
         {/* Social icons */}
         <div className='flex justify-around w-9/12 mx-auto my-5 text-purple-600 md:w-full'>
